@@ -12,7 +12,7 @@
         "test": "jest -c test/jest.config.js"
     },
     "dependencies": {
-        "@next/font": "13.1.6",
+        "@next/font": "13.4.9",
         "next": "latest",
         "next-compose-plugins": "latest",
         "react": "^18.2.0",
