@@ -2325,16 +2325,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.11":
-  version: 18.0.11
-  resolution: "@types/react-dom@npm:18.0.11"
+"@types/react-dom@npm:^18.2.15":
+  version: 18.2.15
+  resolution: "@types/react-dom@npm:18.2.15"
   dependencies:
     "@types/react": "*"
-  checksum: 579691e4d5ec09688087568037c35edf8cfb1ab3e07f6c60029280733ee7b5c06d66df6fcc90786702c93ac8cb13bc7ff16c79ddfc75d082938fbaa36e1cdbf4
+  checksum: 8e9631600c21ff561328e38a951d1991b3b3b20f538af4c0efbd1327c883a5573a63f50e1b945c34fa51b114b30e1ca5e62317bd54f21e063d6697b4be843a03
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.29, @types/react@npm:^18.0.29":
+"@types/react@npm:*":
   version: 18.0.29
   resolution: "@types/react@npm:18.0.29"
   dependencies:
@@ -2342,6 +2342,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 75f56f81d80a1c15ee3fcd2039bdc5f7a70f49cf69827ee0fc8beece9809b234f245dd62552e91018d8f25792986bd513b44caf054554d5c5eb979a5f9460214
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.37, @types/react@npm:^18.2.37":
+  version: 18.2.37
+  resolution: "@types/react@npm:18.2.37"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 2d2599f1a09e4f678509161fea8baeaf76d21deee460f4f3ccc1ca431ebe85f896d7d0b906127de17e97ed57240cec61955eb97d0b5d9cbf4e97fd6620b1acdb
   languageName: node
   linkType: hard
 
@@ -7955,8 +7966,8 @@ __metadata:
     "@next/font": 13.1.6
     "@svgr/webpack": 7.0.0
     "@types/node": ^18.15.10
-    "@types/react": ^18.0.29
-    "@types/react-dom": ^18.0.11
+    "@types/react": ^18.2.37
+    "@types/react-dom": ^18.2.15
     "@typescript-eslint/eslint-plugin": ^5.56.0
     "@typescript-eslint/parser": ^5.56.0
     autoprefixer: ^10.4.14
@@ -8307,7 +8318,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@headlessui/react": ^1.7.13
-    "@types/react": 18.0.29
+    "@types/react": 18.2.37
     dotenv: ^16.0.3
     eslint: 8.36.0
     husky: 8.0.3
